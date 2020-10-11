@@ -331,7 +331,7 @@ html,body{
 	line-height: 24px;
 	margin-bottom:20px;
 }
-.common-block.yellow>.bg{
+.common-block>.bg{
 	background: url(../images/common/share2.png) no-repeat;
 	width:1180px;
 	height:46px;
