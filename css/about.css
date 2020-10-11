@@ -1,0 +1,178 @@
+.about-brand{
+    padding-top:100px;
+}
+.about-brand .common-title{
+    margin-bottom:70px;
+}
+.about-brand .common-block{
+    padding:40px 77px 72px 77px;
+}
+.about-honor{
+    padding-top:100px;
+}
+.about-honor .common-title{
+    margin-bottom:70px;
+}
+.about-honor .ul1{
+    margin-bottom:60px;
+}
+.about-honor .ul1 li {
+    margin-right:84px;
+}
+.about-honor .ul1 li .img{
+    background: url(../images/seventh_page/box.png) no-repeat;
+    width:548px;
+    height:260px;
+    box-sizing: border-box;
+    padding:5px;
+    margin-bottom:40px;
+}
+.about-honor .ul1 li .img img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.about-honor .ul1 li .title{
+    font-size: 24px;
+    color: #333333;
+    line-height: 30px;
+    margin-bottom:20px;
+}
+.about-honor .ul1 li .txt{
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+    width:440px;
+}
+.about-honor .ul1 li:last-child{
+    margin-right:0; 
+}
+.honor-photo{
+    position: relative;
+    padding: 0 70px;
+}
+.honor-photo .btn{
+    position: absolute;
+    display: block;
+    width:40px;
+    height:40px;
+    top:70px;
+    cursor: pointer;
+}
+.honor-photo .btn.prev{
+    background: url(../images/seventh_page/icon_left.png) no-repeat;
+    left:0;
+}
+.honor-photo .btn.next{
+    background: url(../images/seventh_page/icon_right.png) no-repeat;
+    right:0;
+}
+.honor-photo ul{
+    float: 1;
+}
+.honor-photo ul li{
+    margin-right:35px;
+    width:234px;
+}
+.honor-photo ul li img{
+    width:234px;
+    height:174px;
+    display: block;
+    margin-bottom:20px;
+}
+.honor-photo ul li  p{
+    font-size: 16px;
+    color: #161616;
+    text-align: center;
+    line-height: 24px;
+}
+.about-dynamic{
+    padding-top:100px;
+    clear: both;
+}
+.about-dynamic .common-title{
+    margin-bottom:70px;
+}
+.about-dynamic ul{
+    margin-bottom:60px;
+}
+.about-dynamic ul li{
+    background: #FFFFFF;
+    border: 1px solid #38BDEE;
+    border-radius: 16px;
+    margin-bottom:40px;
+    box-sizing: border-box;
+    padding:32px;
+    justify-content: space-between;
+}
+.about-dynamic ul li .img{
+    width:366px;
+    height:226px;
+    margin-right:67px;
+}
+.about-dynamic ul li .content .title{
+    font-size: 24px;
+    color: #333333;
+    line-height: 30px;
+    margin-bottom:20px;
+    line-height: 24px;
+}
+.about-dynamic ul li .content .txt{
+    margin-bottom:40px;
+}
+.about-dynamic ul li .content .txt p{
+    font-size: 16px;
+    color: #666666;
+    line-height:24px;
+    margin-bottom:20px;
+}
+.about-dynamic ul li .content  .time{
+    font-size: 14px;
+    color: #999999;
+}
+.about-dynamic  .paging{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom:190px;
+}
+.about-dynamic  .paging .content{
+    display: flex;
+    align-items: center;
+}
+.about-dynamic  .paging p{
+    letter-spacing: 0;
+    line-height: 14px;
+    font-size: 14px;
+    color: #606266;
+    margin-left:20px;
+}
+.paging .size select{
+    width:60px;
+    height: 28px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    display: inline-block;
+    margin:0 6px;
+    background: none;
+}
+.paging .page{
+    display: flex;
+    align-items: center;
+}
+.paging .page i{
+    background: url(../images/seventh_page/icon_left1.png) no-repeat;
+    width:12px;
+    height:12px;
+    display: block;
+    cursor: pointer;
+}
+.paging .page i.next{
+    background: url(../images/seventh_page/icon_right2.png) no-repeat;
+}
+.paging .page span{
+    padding: 0 20px;
+    font-size: 14px;
+    color: #38BDEE;
+    letter-spacing: 0;
+    line-height: 14px;
+}

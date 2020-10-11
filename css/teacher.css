@@ -1,0 +1,64 @@
+.teacher-conttent{
+    padding-top:100px;
+    padding-bottom:304px;
+}
+
+.common-title{
+    margin-bottom:70px;
+}
+ .common-block{
+   padding:40px 77px 62px 77px;
+   margin-bottom:117px;
+}
+
+.team-member{
+    justify-content: space-between;
+}
+.team-member .left{
+    width:660px;
+    height:640px;
+}
+.team-member ul{
+    width:490px;
+    margin-bottom:30px;
+}
+.team-member ul li{
+    width:100%;
+    height:130px;
+    margin-bottom:40px;
+    background: rgb(246,246,246);
+    border-radius: 6px;
+}
+.team-member ul li:last-child{
+    margin-bottom:0;
+}
+.team-member ul li img{
+    width:120px;
+    height:130px;
+    margin-right:12px;
+}
+.team-member ul li .info .name{
+    font-size: 20px;
+    color: #333333;
+    line-height: 30px;
+    margin-bottom:4px;
+    padding-top:12px;
+}
+.team-member ul li .info p span{
+    display: block;
+    font-size: 16px;
+    color: #161616;
+    line-height: 24px;
+}
+.team-block .link{
+    display: flex;
+    justify-content: flex-end;
+}
+.team-block .link a{
+    font-size: 16px;
+    color: #38BDEE;
+    line-height: 24px;
+}
+.activity-block{
+    padding-top:100px;
+}

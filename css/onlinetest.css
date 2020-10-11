@@ -1,0 +1,113 @@
+
+.onlinetest-content{
+    padding-top:100px;
+    padding-bottom:205px;
+}
+.onlinetest-content .common-title{
+    margin-bottom:60px;
+}
+.tianyi-center>.descript{
+    font-size: 18px;
+    color: #161616;
+    line-height: 30px;
+    margin-bottom:40px;
+    text-align: center;
+}
+.onlinetest-content ul{
+    margin-bottom:40px;
+}
+.onlinetest-content ul li{
+    position: relative;
+    margin-right:30px;
+    padding:0 28px;
+    width:374px;
+    box-sizing: border-box;
+    border: 1px solid #38BDEE;
+    border-radius: 16px;
+    background:#fff;
+}
+.onlinetest-content ul li:last-child{
+    margin-right:0;
+}
+.onlinetest-content ul li .index{
+    position: absolute;
+    top:10px;
+    left:20px;
+    z-index: 2;
+}
+.onlinetest-content ul li .index i{
+    display: inline-block;
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    margin-right:8px;
+    background:rgba(247,193,84,1) ;
+}
+.onlinetest-content ul li:nth-child(2) .index i{
+    background:rgba(56,189,238,1) ;
+}
+.onlinetest-content ul li .title{
+    padding-top:40px;
+    margin-bottom:30px;
+    font-size: 24px;
+    color: #333333;
+    line-height: 30px;
+    text-align: center;
+}
+.onlinetest-content ul li .text{
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+    margin-bottom:20px;
+}
+.onlinetest-content ul li img{
+    width:120px;
+    height:120px;
+    margin:0 auto 22px;
+    display: block;
+}
+.onlinetest-content ul li a{
+    display: block;
+    margin:0 auto 30px;
+    width:170px;
+    height:48px;
+    line-height: 48px;;
+    border-radius: 24px;
+    border:1px solid rgba(56,189,238,1);
+    font-size: 16px;
+    color: #38BDEE;
+    text-align: center;
+}
+.onlinetest-content ul li a:hover{
+    background:  rgba(56,189,238,1);
+    color:#fff;
+}
+.onlinetest-content .tips{
+    background: rgba(225,247,255,1);
+    height:178px;
+    width:100%;
+    border-radius:20px;
+    padding:18px 18px 18px 32px;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.onlinetest-content .tips>p{
+    font-size: 18px;
+    color: #161616;
+    letter-spacing: 0;
+    line-height: 38px;
+    flex:1;
+    margin-right:80px;
+}
+.onlinetest-content .tips .qrcode img{
+    display: block;
+    width:100px;
+    height:100px;
+    margin-bottom:16px;
+    margin: 0 auto 16px;
+}
+.onlinetest-content .tips .qrcode  p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #161616;
+}

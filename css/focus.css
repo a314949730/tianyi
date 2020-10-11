@@ -1,0 +1,131 @@
+.foucs-banner img{
+    width:100%;
+}
+
+.focus-content{
+    padding-top:120px;
+    position: relative;
+    padding-bottom:110px;
+}
+
+.focus-block{
+  margin-bottom:120px;
+}
+.focus-block>.title{
+    margin-bottom:74px;
+    text-align: center;
+}
+.focus-block>.title p{
+    display: inline-block;
+    font-size: 38px;
+    color: #38BDEE;
+    position: relative;
+}
+.focus-block>.title .ty-icon{
+    display: block;
+    background: url(../images/second_page/share1.png) no-repeat;
+    width:60px;
+    height:60px;
+    position: absolute;
+    left:-100px;
+    top:0;
+}
+.focus-block>.title .ty-icon.icon2{
+    transform: rotate(180deg);
+    left:auto;
+    right:-100px;
+}
+.focus-block .content{
+    align-items: center;
+    justify-content: space-between;
+}
+.focus-block.block1 .content .left>p{
+    font-size: 18px;
+    color: #161616;
+    line-height: 26px;
+    margin-bottom:30px;
+}
+.focus-block.block1 .content  ul li{
+    margin-bottom:20px;
+    font-size: 16px;
+    color: #666666;
+    line-height: 32px;
+    padding-left:24px;
+    position: relative;
+}
+.focus-block.block1 .content  ul li::before{
+    content:'';
+    position: absolute;
+    top:6px;
+    left:0;
+    width:8px;
+    height:24px;
+    border-radius: 5px;
+    background:rgba(56,189,238,1) ;
+}
+.focus-block.block1 .content  ul li span{
+    font-size: 24px;
+    color: rgba(56,189,238,1) ;
+    line-height: 32px;
+}
+.focus-block.block1 .content .right{
+    position: relative;
+}
+.focus-block.block1 .content .right>.bg{
+    position: absolute;
+    top:-34px;
+    left:167px;
+    background: url(../images/second_page/bg/pic3.png) no-repeat;
+    width:244px;
+    height: 244px;
+}
+.focus-block.block1 .content .right img{
+    position: relative;
+    z-index: 2;
+}
+.focus-block.block2 .content .right{
+    width:554px ;
+}
+.focus-block.block2 .content .left{
+    position: relative;
+}
+.focus-block.block2 .content .left  img{
+    position: relative;
+    z-index: 2;
+}
+.focus-block.block2 .content .left .bg{
+    position: absolute;
+    top: -34px;
+    left: -10px;
+    background: url(../images/second_page/bg/pic3.png) no-repeat;
+    width: 244px;
+    height: 244px;
+}
+.focus-block.block2 .content .right>p{
+    font-size: 18px;
+    color: #161616;
+    line-height: 26px;
+    margin-bottom:20px;
+}
+
+.focus-block.block2 .content .right ul{
+    padding-top:10px;
+}
+.focus-block.block2 .content .right ul li{
+    font-size: 16px;
+    color: #666666;
+    line-height: 32px;
+    margin-bottom:20px;
+    position: relative;
+    padding-left:24px;
+}
+.focus-block.block2 .content .right ul li:before{
+    content:'';
+    width:8px;
+    height:24px;
+    border-radius: 5px;
+    background: rgba(251,156,77,1);
+    position: absolute;
+    top:6px;
+    left:0;
+}
