@@ -162,6 +162,7 @@
     margin-right:130px;
     position: relative;
     z-index: 2;
+    border-radius: 16px;
 }
 .li2 .content .right .bg{
     position: absolute;
