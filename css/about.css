@@ -49,9 +49,10 @@
 }
 .honor-photo{
     position: relative;
-    padding: 0 70px;
 }
-
+.honor-photo .swiper-container{
+    margin: 0 70px!important;
+}
 .honor-photo .btn{
     position: absolute;
     display: block;
@@ -60,20 +61,26 @@
     top:70px;
     cursor: pointer;
 }
-.honor-photo .btn.prev{
-    background: url(../images/seventh_page/icon_left.png) no-repeat;
+.swiper-button-next:after,.swiper-button-prev:after{
+    content:''!important;
+}
+.swiper-button-next:foucs,.swiper-button-prev:focus{
+    cursor: pointer;
+}
+.honor-photo .btn.swiper-button-prev{
+    background: url(../images/seventh_page/icon_left.png) no-repeat!important;
     left:0;
 }
-.honor-photo .btn.next{
-    background: url(../images/seventh_page/icon_right.png) no-repeat;
+.honor-photo .btn.swiper-button-next{
+    background: url(../images/seventh_page/icon_right.png) no-repeat!important;
     right:0;
 }
 .honor-photo ul{
     float: 1;
 }
 .honor-photo ul li{
-    margin-right:35px;
-    width:234px;
+    margin-right:32px;
+    width:234px!important;
 }
 .honor-photo ul li img{
     width:234px;
@@ -176,4 +183,7 @@
     color: #38BDEE;
     letter-spacing: 0;
     line-height: 14px;
+}
+.swiper-button-next, .swiper-button-prev{
+    top:34%!important;
 }
