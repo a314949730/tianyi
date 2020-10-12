@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
     <title>首页</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">    
 </head>
 <body>
     <div class="tianyi-contianer tianyi-index">
@@ -23,10 +26,14 @@
                 </ul>
             </div>
         </div>
-        <div class="tianyi-banner index-banner">
-            <img src="images/common/banner.png" alt="">
+        <div class="tianyi-banner index-banner swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/common/banner.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/common/banner.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
-        <div class="index-introduce">
+        <div class="index-introduce tianyi-content">
             <p class="introduce-bg"></p>
             <div class="tianyi-center">
                 <div class="introduce-content flex">
@@ -89,7 +96,7 @@
             <p class="pg3"></p>
             <div class="tianyi-center">
                 <div class="course-content">
-                    <p class="title">精品课程免费体验</p>
+                    <p class="common-title">精品课程免费体验</p>
                         <img src="images/first_page/Qr_code.png" alt=""  class="qrcode">
                     <p class="descript">微信扫码免费体验精品课程</p>
                 </div>
@@ -159,7 +166,7 @@
                 <p class="right"></p>
             </div>
             <ul>
-                <li class="li1"><a href="" class="flex"><b class="ty-icon"></b>免费测评</a></li>
+                <li class="li1"><a onclick="javascript:window.open('http://b.qq.com/webc.htm?new=0&sid=314949730&o=https://a314949730.github.io/tianyi/index.html&q=7', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');"  border="0" SRC=http://wpa.qq.com/pa?p=1:314949730:7 alt="点击这里给我发消息" href="javascript:void(0)" class="flex"><b class="ty-icon"></b>免费测评</a></li>
                 <li class="li2"><a href="" class="flex"><b class="ty-icon"></b>在线咨询</a></li>
                 <li class="li3"><a href="" class="flex"><b class="ty-icon"></b>联系我们</a></li>
                 <li class="li4"><a href="" class="flex"><b class="ty-icon"></b>了解精品课程</a></li>
@@ -167,4 +174,13 @@
         </div>
     </div>
 </body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+<script>
+var mySwiper = new Swiper('.swiper-container', {
+    autoplay: false,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+})
+</script>
 </html>

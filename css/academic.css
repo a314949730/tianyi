@@ -105,12 +105,15 @@ li .item .content>.img{
     position: absolute;
     bottom:-1px;
     left:0;
-    width:72px;
+    width:70px;
     height:12px;
     border-radius: 4px;
     background: #FFD200;
     opacity: .6;
     z-index: 1;
+}
+.li2 .content .list p label:before{
+    background: rgba(251,156,77,1);
 }
 .content .list p label{
     display: inline-block;

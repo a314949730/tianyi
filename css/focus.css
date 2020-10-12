@@ -20,6 +20,7 @@
     font-size: 38px;
     color: #38BDEE;
     position: relative;
+    font-family: kuzhanFont;
 }
 .focus-block>.title .ty-icon{
     display: block;
