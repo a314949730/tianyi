@@ -46,6 +46,7 @@ html,body{
 	min-width: 1200px;
 	margin:0 auto;
 	overflow-x: hidden;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,"Helvetica Neue",Arial,sans-serif;
 }
 .flex{
 	display: flex;
